@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <Button
+        android:id="@+id/b_VerMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView11"
+        android:layout_alignParentEnd="false"
+        android:layout_marginBottom="20dp"
+        android:onClick="Abremapa"
+        android:text="Visualizar Local" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b_Registrar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:gravity="center"
+        android:text="Clique para coletar sua coordenada geografica:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b_VerMapa"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="Clique para ver os pontos obtidos no GoogleMaps:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b_Registrar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginBottom="20dp"
+        android:onClick="Registra"
+        android:text="Registrar Pontos" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b_Gerenciar"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="false"
+        android:gravity="center"
+        android:text="Clique para gerenciar a lista de coordenadas:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b_Gerenciar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="Gerencia"
+        android:text="Gerenciar Lista" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:text="Samuel Babinski - Trabalho de Conclusão de Curso - Sistemas de Informação - FAG"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Gerenciar Projetos"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b_Salvar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView9"
+        android:width="175sp"
+        android:onClick="Salva"
+        android:text="Salvar" />
+
+    <Button
+        android:id="@+id/b_Carregar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_toEndOf="@+id/b_Salvar"
+        android:layout_toRightOf="@+id/b_Salvar"
+        android:width="175dp"
+        android:onClick="Carrega"
+        android:text="Carregar" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b_Salvar"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b_PerfilTopo"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:gravity="center"
+        android:text="Clique para obter um perfil topográfico:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b_PerfilTopo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView8"
+        android:layout_alignParentStart="false"
+        android:layout_marginBottom="20dp"
+        android:onClick="PerfilTopo"
+        android:text="Perfil Topográfico" />
+
+
+</RelativeLayout>

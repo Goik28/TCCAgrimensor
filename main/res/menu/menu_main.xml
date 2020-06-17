@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_sobre"
+        android:title="@string/action_sobre"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_licenca"
+        android:orderInCategory="100"
+        android:title="@string/action_licenca"
+        app:showAsAction="ifRoom" />
+</menu>

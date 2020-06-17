@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:checkMark="?android:attr/listChoiceIndicatorSingle"
+    android:gravity="center_vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:text="Nº de satelites: S\nMargem de erro: M\nLatitude: xx.xxxxx\nLongitude: yy.yyyyy"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall" />

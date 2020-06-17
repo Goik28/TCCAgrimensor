@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TCC Agrimensor</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="action_sobre">Sobre</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="title_activity_gerencia_lista">Gerencia Lista</string>
+    <string name="title_activity_registra_coor">Registra Coordenadas</string>
+    <string name="action_compose">Tipo do Mapa</string>
+    <string name="exporta_imagem">Exportar para Imagem</string>
+    <string name="action_licenca">Licenças</string>
+</resources>
